@@ -1,0 +1,96 @@
+h1{
+    background-color: rgb(6, 6, 65);
+    color: white;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.choice{
+
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.5;   /* -----  when we hover on the choises that time it gives us some blure fill   */
+    cursor: pointer;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+   
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   /* margin-top: 3rem;   */
+}
+
+
+.game-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+#user-score,#comp-score{
+    font-size: 3rem;
+}
+
+
+.msg-container{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.msg-para{
+   
+    background-color: rgb(6, 6, 65);
+    color: white;
+    font-size:2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.draw-match{
+    background-color: "red";
+    color :"black";
+    font-size:2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+
+
+}
+
+.userWin{
+    background-color:"green";
+    color :"black";
+    font-size:2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
